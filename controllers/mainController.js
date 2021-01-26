@@ -1,7 +1,7 @@
 const mainController = {
-home: (req, res) => {
-    res.send("/")
+index: (req, res) => {
+    return res.render("home.html");
 }
-}
+};
 
 module.exports = mainController;
